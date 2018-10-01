@@ -17,3 +17,52 @@ What value do you think it offers?
   It could become handy if you forget to commit between two logical steps. With
   the stating area you could still make separate commits from the changes you
   made to different files.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  You can use the staging area to only add one file at a time, so even if you
+  already made multiple logical changes, you don't need to commit them at once.
+  In addition can use the staging area to compare the differences between your
+  last commit, the staging area and the working directory to ensure you really
+  commit what you want.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  You can use branches when making individual changes, not directly related to
+  the main version of the project. For example when adding some experimental
+  feature you can use branches, so the working version of your project won't be
+  touched, but you can still develop your feature.
+
+How do the diagrams help you visualize the branch structure?
+
+  For me in person it's way easier to read and understand the visual diagram,
+  compared to reading through all the logs. You can get lot's of information
+  out of one of these diagrams: what features can be found in which commit,
+  what's currently worked on, if there are multiple branches, what which
+  version includes, and so on.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+  When merging two branches together we combine all changes made into one new
+  commit, containing the code changes of both of the branches. We represent it
+  by another circle with pointers pointing to the tips of both branches, because
+  when merging we are creating a new commit, which, since it has two parents,
+  points on both of the commits.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+  The good thing about git merging automatically is, convenience. It's
+  really easy and fast and does take next to no work. On the other hand
+  there still could be errors happening, or useless bits of code sneaking
+  into the merged version of the branches.
+  That is where manual merges come in. If you had to merge everything
+  manually it would be really tedious. Image working on a huge project
+  with lots of lines of code and merging a really complex new feature in.
+  You had to review a lot of really obvious lines, probably it wouldn't
+  even be possible to do this in a reasonable time. The good thing about
+  merging manually is, that you definitely know what makes it in the
+  merged version and that it is exactly what makes sense.
