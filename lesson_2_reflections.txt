@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+  When you initialize the repository git will create a ".git" folder for you,
+  in which it stores the files needed for git to work. After initializing the
+  repository it's possible to use the rest of git's functionality in that
+  folder.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+  The staging area is like a virtual container or folder, in which you can put
+  all the files you are planning to commit next time. You can't directly access
+  files in you stating area. You have to modify them in you working directory
+  and then add them to the staging area. It's like the link between working
+  directory and repository.
+
+  It could become handy if you forget to commit between two logical steps. With
+  the stating area you could still make separate commits from the changes you
+  made to different files.
