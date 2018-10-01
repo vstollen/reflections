@@ -1,0 +1,74 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+  Since the command filtered out all the unnecessary lines, that did not change
+  I had much less code to compare and so was able to find the bug way easier
+  and faster than without the diff command.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+  There are two points: First, of course, the fact, that if I accidentally
+  introduce a bug I can easily find an old version that worked, even if I only
+  find the bug weeks or even months after I changed the code.
+  Second I might be able to better remind me of what I last did in my projects,
+  so it maybe will get easier to get back into an old project.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+  Reminding myself of my goal when using Version Control and looking back to
+  the sections above, Version Control should help me with keeping track of
+  what I've done and provide a method to find and fix bugs faster and easier.
+  If the Version Control System now safes automatically like Google Docs, I
+  could maybe safe in the middle of a critical change, or just simply writing a
+  line. So it could happen, that a huge portion of my saved versions won't even
+  work, so I can't differentiate buggy versions from unfinished versions.
+
+  If I now am able to manually choose when to commit, my single commits will be
+  way more logical and useful, since I can for example always commit after I
+  did a new, working change, so I am able to track what I've changed with the
+  help of the commit messages and I am guaranteed, that the committed code was
+  saved at a logical point and rely on my versions when finding and solving
+  bugs.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+  Whether files should be saved together or separately highly depends on the
+  filetype and use case. For example, when writing documents using Google Docs
+  the files and documents usually are unrelated. For example, if I first work
+  on a school project and later work on a nice letter to my family, why should
+  they be saved together? On the other side when coding for example files are
+  often correlated and one logical change, maybe a tiny new feature can stretch
+  about multiple files, so it would be unnecessarily tedious to restore the
+  version before that change, because you would have to work your way through
+  multiple files, even leaving space for errors, like forgetting single files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+  "git log" shows an overview of all past commits in the history of files,
+  including their commit messages. When I want to find a commit
+  "git log" is therefore helpful to easily find what was when committed by whom.
+  If I want to get a closer look to a particular version, "git diff" can come in
+  handy, since it highlights what exactly was changes in the different files.
+
+  A general rule of thumb would be, that "git log" can be used to get a fast
+  overview to the general changes in the file history, while "git diff" is used
+  to find every little change between two particular versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+  Since I now do have in mind, that I will always be able to restore or compare
+  to an older version, I for sure won't have to worry about breaking stuff
+  anymore. Since I usually used some sort of backup, if not even git in the
+  past it probably won't change to much of my coding workflow or style.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+  Since I have now learned, that git can be useful in almost any coding project
+  I look forward to try to use it with as many of my future projects as
+  possible. Even if it won't benefit me in that project in particular, it will
+  still make me get more comfortable when using git.
