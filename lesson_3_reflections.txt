@@ -47,3 +47,19 @@ and what would be harder?
   USB-Sticks passing the files around. Since I never collaborated with more
   than two other persons, that still was okay, but when I imagine doing that
   with more people, that wouldn't work for sure.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+  I usually want master to be a clean and working version of my project. So
+  whenever I develop something new, maybe start out on a new feature, or
+  or something similar, it would make sense to start out on a new branch.
+
+  Branches can also help reviewing code changes for collaborators, so it makes
+  sense not to directly modify to master branch, but to make the changes in a
+  new branch and create a pull request to make sure my collaborators get
+  notified of the changes and can also help me finding mistakes.
+
+  The problem with making the changes in a separate branch and possibly also
+  creating a pull request is, that it is more complicated, since it takes a few
+  steps instead of just committing to master and directly pushing.
