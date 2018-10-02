@@ -35,3 +35,15 @@ stored locally?
   it's easier to track what changes were made locally and at the remote
   repository. Having one of these enables git to decide whether a fast merge
   is possible or a normal merge is needed.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+  In the past I collaborated just by splitting up the tasks, so we would create
+  conflicts while working on the project and then later manually change out the
+  files at our respective computers. This meant, that you only were allowed to
+  work on files after communicating and distributing the changes always was a
+  tedious and error creating task. I did this with Google Drive and just plain
+  USB-Sticks passing the files around. Since I never collaborated with more
+  than two other persons, that still was okay, but when I imagine doing that
+  with more people, that wouldn't work for sure.
