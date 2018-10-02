@@ -27,3 +27,11 @@ use on instead of another?
   A fork is a special type of clone on GitHub, which keeps track of who's
   repository it originally was and creates a link from the forked version
   back to the original.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+  When you have a copy of the last known state of the remote stored locally,
+  it's easier to track what changes were made locally and at the remote
+  repository. Having one of these enables git to decide whether a fast merge
+  is possible or a normal merge is needed.
