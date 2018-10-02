@@ -14,3 +14,16 @@ automatically stay up-to-date with your remote repository?
   Maybe if you are in the middle of working on something you don't want new
   Code and stuff coming in all the time. It just leaves you the freedom to
   decide by yourself when you want to update your local repository.
+
+Describe the differences between forks, clones, and branches. When would you
+use on instead of another?
+
+  Branches are like different paths in one repository. For example you could
+  checkout a branch at one commit and then work on your new branch while not
+  changing any of the code in the old branch and later merge them together.
+
+  A clone is a complete copy of a repository, also including possible branches.
+
+  A fork is a special type of clone on GitHub, which keeps track of who's
+  repository it originally was and creates a link from the forked version
+  back to the original.
